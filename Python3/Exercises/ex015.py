@@ -1,0 +1,5 @@
+print('='*5, 'ALUGUÉL DE CARRO', '='*5)
+km = float(input('Quantos Km foram rodados: '))
+days = int(input('Por qunatos dias foi alugado: '))
+pay = (days*60) + (0.15*km)
+print('Este carro foi usado durante {} dia(s), e rodou {:.2f}km. \nValor à ser pago: R${:.2f}'.format(days, km, pay))
